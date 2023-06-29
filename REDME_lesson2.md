@@ -3,7 +3,7 @@
 
 ![picture for containerization](https://github.com/DRain777/Containerization/blob/algoritm/source/photo1687406967.jpeg)
 
-## Урок 2. LXC-подсистемная контейнеризация 
+## Урок 2. LXC-подсистемная контейнеризация (linux Containers)
 
 ### **Информация о проекте**
 1) запустить контейнер с ubuntu, используя механизм LXC
@@ -22,11 +22,25 @@
   Он обычно используется вместе с LXC для настройки сети для контейнеров.
 4 lxc-templates: этот пакет включает набор шаблонов для создания различных типов контейнеров LXC. Эти шаблоны предоставляют
   предварительно настроенные настройки для различных дистрибутивов Linux, что упрощает создание контейнеров на основе конкретных дистрибутивов. 
-
-
 ```
  sudo apt install lxc debootstrap bridge-utils lxc-templates
 ```
+![picture for containerization](https://github.com/DRain777/Containerization/blob/algoritm/source/install_lxc.png)
+Установили пакеты LXC 
+
+*
+Создаем LXC контейнер с образом(имиджом) ubuntu
+```
+ sudo lxc-create -n testLXC -t ubuntu
+```
+![picture for containerization](https://github.com/DRain777/Containerization/blob/algoritm/source/create_lxc_conteiner.png)
+пакеты устанавливались 30 минут!!!
+
+
+
+
+
+
 
 
 
