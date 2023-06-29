@@ -36,6 +36,29 @@
 ![picture for containerization](https://github.com/DRain777/Containerization/blob/algoritm/source/create_lxc_conteiner.png)
 пакеты устанавливались 30 минут!!!
 
+* Далee делаем ограничения по памяти в 256М командой:
+```
+sudo lxc-cgroup -n testLXC memory.max 256m 
+```
+* Запускаем контейнер командой:
+```
+sudo lxc-start -n  testLXC 
+```
+* Заходим в контейнер командой:
+```
+sudo lxc-attach -n  testLXC 
+```
+* Смотрим сколько доступно памяти, команда:
+```
+free -m  
+```
+** Видим что оперативная память ограничена 256М
+![picture for containerization](https://github.com/DRain777/Containerization/blob/algoritm/source/create_lxc_conteiner.png)
+
+Студент Geek Brains Кочев Денис
+
+
+
 
 
 
