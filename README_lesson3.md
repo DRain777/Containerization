@@ -33,4 +33,4 @@
 
 
 
-*Подготовил студент Geek Brains* [**`Терехов Александр`**](https://gb.ru/users/7696463), containerization-Seminar_3
+
