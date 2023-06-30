@@ -1,7 +1,7 @@
 # Контейнеризация (семинары)
 
 
-![picture for containerization]()
+![picture for containerization](https://github.com/DRain777/Containerization/blob/algoritm/source/super_conteiner.jpeg)
 
 ## Урок 3. Введение в Docker
 
