@@ -1,7 +1,7 @@
 ﻿# Контейнеризация (семинары)
 
 
-![picture for containerization](https://github.com/DRain777/Containerization/blob/algoritm/source/photo1687406967.jpeg)
+![picture for containerization](https://github.com/DRain777/Containerization/blob/algoritm/source/super_conteiner.jpeg)
 
 ## Урок 1. Механизмы пространства имен
 
