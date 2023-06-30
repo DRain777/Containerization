@@ -53,7 +53,7 @@ sudo lxc-attach -n  testLXC
 free -m  
 ```
 ** Видим что оперативная память ограничена 256М
-![picture for containerization](https://github.com/DRain777/Containerization/blob/algoritm/source/create_lxc_conteiner.png)
+![picture for containerization](https://github.com/DRain777/Containerization/blob/algoritm/source/proof.png)
 
 Студент Geek Brains Кочев Денис
 
