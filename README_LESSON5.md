@@ -16,13 +16,13 @@
 ```
 nano compose.yml
 ```
-![picture for containerization](https://github.com/DRain777/Containerization/blob/algoritm/source/photo1687406967.jpeg)
+![picture for containerization](https://github.com/DRain777/Containerization/blob/algoritm/source/1nano_compose.png)
 
 * Запускаем docker-compose командой: 
 ```
  docker compose up -d
 ```
-![picture for containerization](https://github.com/DRain777/Containerization/blob/algoritm/source/photo1687406967.jpeg)
+![picture for containerization](https://github.com/DRain777/Containerization/blob/algoritm/source/2docker_ps.png)
 
 
 
