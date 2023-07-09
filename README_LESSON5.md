@@ -50,7 +50,7 @@ touch project/dev/docker-compose.yml project/prod/docker-compose.yml project/lab
    ```
    docker compose up 
    ``` 
-   ![picture for containerization](https://github.com/DRain777/Containerization/blob/algoritm/source/4_lesson5.png)
-  # В каждой папки dev,prod,lab по 2 работающих контейнера.
+![picture for containerization](https://github.com/DRain777/Containerization/blob/algoritm/source/4_lesson5.png)
+ # В каждой папки dev,prod,lab по 2 работающих контейнера.
 
 
