@@ -1,7 +1,7 @@
 # Контейнеризация (семинары)
 
 
-![picture for containerization]()
+![picture for containerization](https://github.com/DRain777/Containerization/blob/algoritm/source/super_conteiner.jpeg)
 
 ## Урок 3. Введение в Docker
 
@@ -17,19 +17,14 @@
 **Задание**
 
 
-![lxc version]()
-![lxc version]()
-![lxc version]()
-![lxc version]()
-![lxc version]()
-![lxc version]()
-![lxc version]()
-![lxc version]()
-![lxc version]()
-![lxc version]()
-![lxc version]()
-![lxc version]()
-![lxc version]()
+![lxc version](https://github.com/DRain777/Containerization/blob/algoritm/source/lesson3_1.png)
+![lxc version](https://github.com/DRain777/Containerization/blob/algoritm/source/lesson3_2.png)
+![lxc version](https://github.com/DRain777/Containerization/blob/algoritm/source/lesson3_3.png)
+![lxc version](https://github.com/DRain777/Containerization/blob/algoritm/source/lesson3_4.png)
+![lxc version](https://github.com/DRain777/Containerization/blob/algoritm/source/lesson3_5.png)
+![lxc version](https://github.com/DRain777/Containerization/blob/algoritm/source/lesson3_6.png)
+![lxc version](https://github.com/DRain777/Containerization/blob/algoritm/source/lesson3_7.png)
+![lxc version](https://github.com/DRain777/Containerization/blob/algoritm/source/lesson3_8.png)
 
 
 
@@ -37,4 +32,5 @@
 
 
 
-*Подготовил студент Geek Brains* [**`Терехов Александр`**](https://gb.ru/users/7696463), containerization-Seminar_3
+
+
