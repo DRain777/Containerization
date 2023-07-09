@@ -5,10 +5,10 @@
 
 # Задание 
 Задание 1:
-* 1 создать сервис, состоящий из 2 различных контейнеров: 1 - веб, 2 - БД
-* 2 далее необходимо создать 3 сервиса в каждом окружении (dev, prod, lab)
-* 3 по итогу на каждой ноде должно быть по 2 работающих контейнера
-* 4 выводы зафиксировать
+* 1 Создать сервис, состоящий из 2 различных контейнеров: 1 - веб, 2 - БД
+* 2 Далее необходимо создать 3 сервиса в каждом окружении (dev, prod, lab)
+* 3 По итогу на каждой ноде должно быть по 2 работающих контейнера
+* 4 Выводы зафиксировать
 
 * 1 Для создания сервиса,из двух разных контейнеров(веб-приложение и базы данных)
    Будем использовать Docker-compose- это инструмент для определения и управления
@@ -41,7 +41,8 @@ mkdir -p project/{dev,prod,lab}
 ```
 touch project/dev/docker-compose.yml project/prod/docker-compose.yml project/lab/docker-compose.yml
 ```
-* Заполняем  файлы docker-compose.yml в каждой директории 
+* Заполняем  файлы docker-compose.yml в каждой директории
+  
 ![picture for containerization](https://github.com/DRain777/Containerization/blob/algoritm/source/3_lesson5.png)
 
 * Через команду cd заходим в папку project/ выбираем 1 из трех сервисов dev,prod,lab 
@@ -50,5 +51,6 @@ touch project/dev/docker-compose.yml project/prod/docker-compose.yml project/lab
    docker compose up 
    ``` 
    ![picture for containerization](https://github.com/DRain777/Containerization/blob/algoritm/source/4_lesson5.png)
+  # В каждой папки dev,prod,lab по 2 работающих контейнера.
 
 
