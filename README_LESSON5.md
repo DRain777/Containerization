@@ -53,4 +53,48 @@ touch project/dev/docker-compose.yml project/prod/docker-compose.yml project/lab
 ![picture for containerization](https://github.com/DRain777/Containerization/blob/algoritm/source/4_lesson5.png)
  # В каждой папки dev,prod,lab по 2 работающих контейнера.
 
+# Задание 2*:
+*1 нужно создать 2 ДК-файла, в которых будут описываться сервисы
+*2 повторить задание 1 для двух окружений: lab, dev
+*3 обязательно проверить и зафиксировать результаты, чтобы можно было выслать преподавателю 
+
+
+
+Задание 2:
+
+*1 Создание 2 файла Docker Compose для описания сервисов:
+
+*a Создайте файл `docker-compose.lab.yml` со следующим содержимым:
+
+
+version: '3'
+services:
+web:
+image:
+container_name: web
+
+db:
+image:
+container_name: db
+
+*b Создайте файл `docker-compose.dev.yml` со следующим содержимым:
+
+version: '3'
+services:
+web:
+image:
+container_name: web
+
+db:
+image:
+container_name: db
+
+*2 Повторение задания 1 для двух окружений (lab, dev):
+
+*Выполните команду `docker-compose -f docker-compose.lab.yml up -d` для запуска контейнеров в *окружении lab.
+
+*Аналогично, выполните команду `docker-compose -f docker-compose.dev.yml up -d` для запуска *контейнеров в окружении dev.
+
+*Таким образом, будут запущены по 2 контейнера (веб и БД) на каждой ноде для каждого окружения
+
 
