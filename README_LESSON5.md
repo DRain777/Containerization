@@ -27,13 +27,13 @@ nano compose.yml
 
 
 * 2 Чтобы создать три службы в каждой среде (dev, prod, lab) с помощью Docker Compose
- project/ Создаем структуру каталогов   
-*├── dev/
-*│    └── docker-compose.yml
-*├── prod/
-*│    └── docker-compose.yml
-*└── lab/
-*     └── docker-compose.yml
+* project/ Создаем структуру каталогов   
+* ├── dev/
+* │    └── docker-compose.yml
+* ├── prod/
+* │    └── docker-compose.yml
+* └── lab/
+*    └── docker-compose.yml
 
 ```
 mkdir -p project/{dev,prod,lab}
