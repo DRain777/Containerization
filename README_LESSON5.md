@@ -41,5 +41,15 @@ mkdir -p project/{dev,prod,lab}
 ```
 touch project/dev/docker-compose.yml project/prod/docker-compose.yml project/lab/docker-compose.yml
 ```
+* Заполняем  файлы docker-compose.yml в каждой директории 
+![picture for containerization](https://github.com/DRain777/Containerization/blob/algoritm/source/2docker_ps.png)
+
+* Через команду cd заходим в папку project/ выбираем 1 из трех сервисов dev,prod,lab 
+   через команду cd заходим в директорию, запускаем сервис этой командой:
+   ```
+   docker compose up 
+   ``` 
+   ![picture for containerization](https://github.com/DRain777/Containerization/blob/algoritm/source/2docker_ps.png)
+
 
 
